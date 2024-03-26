@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    
+    border: 1px solid #008000;
+    background-color: rgb(245, 244, 243);
+    
+    
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid red;
+
+}
+
+#container-card-diogo{
+    /* border: 2px solid blue; */
+    display: flex;
+    
+    max-width: 80vw;
+    height: 100%;
+    border: 6px solid yellow;
+    border-radius: 10px;
+    
+   
+}
+/*Diogo*/
+
+
+#Card{
+    
+    /* border: 5px solid purple; */
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    overflow-x: auto;
+    max-width: 100%;
+    
+    
+    
+    
+}
+
+#div-card-resultado{
+    border: 2px solid orange;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 8px;
+    height: 600px;
+    width: 400px;
+     text-align: center;
+    margin: 0px 0px 10px 0px;
+    box-shadow: 10px 10px 5px 5px rgb(206, 202, 202);
+    align-items: center;
+    
+}
+
+#div-card-resultado:hover{
+
+    background-color: aqua;
+
+    
+}
+.card-text{
+    
+    border: 1px solid black;
+    border-radius: 5px;
+   
+   
+}
+#card-img{
+    width: 50px;
+    height: 50px;
+}
+
+
