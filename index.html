@@ -7,13 +7,14 @@
    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
       integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
    <link rel="stylesheet" href="style.css">
+   <link rel="icon" type="image/png" href="img/pilha-livro.png">
    
    <title>Buscador de Livro</title>
 </head>
 <body>
 
    <div id="lateral">
-      <img src="./img/Logo.png" alt="Logo" class="logo" />
+      <img src="./img/Logo.png" alt="Ilustração de um livro com um planeta, lua e estrelas ao seu redor" class="logo" />
 
       <!-- <h2>Lista de livros</h1>
          <ol id="list">
@@ -21,8 +22,9 @@
    </div> 
 
    <div id="consulta">
-      <input type="text" id="research" placeholder="Digite o nome do livro">
-      <button onclick="getData()">Consultar</button>
+      <label for="research">Procurar um livro:</label>
+      <input type="text" id="research" aria-label="Insira o título ou o autor do livro que deseja encontrar" placeholder="  Digite o nome do livro">
+      <button onclick="getData()" id="consultar-btn" aria-label="consultando" aria-live="assertive">Consultar</button>
    </div>
 
 
@@ -42,7 +44,7 @@
          <div class="grid-item">
             <img
                src="http://books.google.com/books/content?id=9smFDwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api"
-               alt="Exemplo de Imagem" class="card-image">
+               alt="Exemplo de Imagem-1" class="card-image">
             <div class="card-content">
                <!-- <h2 class="card-title">Título:</h2>
               <p class="card-author">Autor:</p>
@@ -56,7 +58,7 @@
          <div class="grid-item">
             <img
                src="http://books.google.com/books/content?id=9smFDwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api"
-               alt="Exemplo de Imagem" class="card-image">
+               alt="Exemplo de Imagem-2" class="card-image">
             <div class="card-content">
                <!-- <h2 class="card-title">Título do Livro</h2>
                  <p class="card-author">Autor: Autor do Livro</p>
@@ -70,7 +72,7 @@
          <div class="grid-item">
             <img
                src="http://books.google.com/books/content?id=9smFDwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api"
-               alt="Exemplo de Imagem" class="card-image">
+               alt="Exemplo de Imagem-3" class="card-image">
             <div class="card-content">
                <!-- <h2 class="card-title">Título do Livro</h2>
                     <p class="card-author">Autor: Autor do Livro</p>
@@ -84,7 +86,7 @@
          <div class="grid-item">
             <img
                src="http://books.google.com/books/content?id=9smFDwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api"
-               alt="Exemplo de Imagem" class="card-image">
+               alt="Exemplo de Imagem-4" class="card-image">
             <div class="card-content">
                <!-- <h2 class="card-title">Título do Livro</h2>
                     <p class="card-author">Autor: Autor do Livro</p>
@@ -98,7 +100,7 @@
          <div class="grid-item">
             <img
                src="http://books.google.com/books/content?id=9smFDwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api"
-               alt="Exemplo de Imagem" class="card-image">
+               alt="Exemplo de Imagem-5" class="card-image">
             <div class="card-content">
                <!-- <h2 class="card-title">Título do Livro</h2>
                     <p class="card-author">Autor: Autor do Livro</p>
